@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    background:#e0e0e0;
+    position:relative;
+    height:100vh;
+}
+form{
+    width:100%;
+    max-width:400px;
+    background:#fff;
+    box-sizing: border-box;
+    padding:30px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+form input, form select, form .select2{
+    width:100%;
+    margin-bottom:10px !important;
+    box-sizing: border-box;
+}
+form input[type="submit"]{
+    padding:20px;
+    background:#6666ee;
+    color:#fff;
+}
+.spark_triggerable{
+    display:none;
+}
+.spark_triggerable.active{
+    display:block;
+}
